@@ -17,7 +17,7 @@ LINUX_ARCH="$(lscpu | grep 'Architecture' | awk -F\: '{print $2}' | tr -d ' ')"
 
 # Latest Android Linux SDK for x64 and x86 as of 16-03-2016
 ANDROID_SDK_X64="http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz"
-ANDROID_SDK_X86="http://dl.google.com/android/android-sdk_r24.4.2-linux.tgz"
+ANDROID_SDK_X86="http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz"
 
 # Latest NodeJS for x64 and x86 as of 16-10-2016
 NODE_X64="http://nodejs.org/dist/latest/node-v5.8.0-linux-x64.tar.gz"
