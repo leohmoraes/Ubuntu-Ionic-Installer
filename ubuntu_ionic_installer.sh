@@ -1,3 +1,4 @@
+#!/bin/bash
 # Download and configure the following
 #
 # Java SDK
